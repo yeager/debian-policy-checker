@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=debian-policy-checker
+Comment=GTK4 Debian Policy Manual validator with fix suggestions
+Exec=debian-policy-checker
+Icon=applications-other-symbolic
+Terminal=false
+Categories=Development;
