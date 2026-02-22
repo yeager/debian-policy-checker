@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[o:danielnylander:p:debian-policy-checker:r:debian-policy-checker-pot]
+[o:danielnylander:p:debian-policy-checker:r:debian_policy_checker]
 file_filter = po/<lang>.po
 source_file = po/debian-policy-checker.pot
 source_lang = en
