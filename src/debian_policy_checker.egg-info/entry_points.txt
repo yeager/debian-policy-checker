@@ -1,0 +1,2 @@
+[console_scripts]
+debian-policy-checker = debian_policy_checker.main:main

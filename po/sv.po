@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-policy-checker 0.1.0\n"
+"Project-Id-Version: debian-policy-checker\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 07:09+0100\n"
+"POT-Creation-Date: 2026-02-23 11:03+0100\n"
 "PO-Revision-Date: 2026-02-22 07:13+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305200/sv/)\n"
@@ -21,58 +21,58 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/debian_policy_checker/main.py:67
+#: src/debian_policy_checker/main.py:68
 msgid "Install with: sudo apt install lintian"
 msgstr "Installera med: sudo apt install lintian"
 
-#: src/debian_policy_checker/main.py:76 src/debian_policy_checker/main.py:84
-#: src/debian_policy_checker/main.py:304
+#: src/debian_policy_checker/main.py:77 src/debian_policy_checker/main.py:85
+#: src/debian_policy_checker/main.py:323
 msgid "Debian Policy Checker"
 msgstr "Debian Policy Checker"
 
-#: src/debian_policy_checker/main.py:89
+#: src/debian_policy_checker/main.py:90
 msgid "Open .deb or package directory"
 msgstr "Öppna .deb eller paketkatalog"
 
-#: src/debian_policy_checker/main.py:95 src/debian_policy_checker/main.py:258
+#: src/debian_policy_checker/main.py:96 src/debian_policy_checker/main.py:265
 msgid "Settings"
 msgstr "Inställningar"
 
-#: src/debian_policy_checker/main.py:96
+#: src/debian_policy_checker/main.py:97
 msgid "Copy Debug Info"
 msgstr "Kopiera felsökningsinformation"
 
-#: src/debian_policy_checker/main.py:97
+#: src/debian_policy_checker/main.py:98
 msgid "Keyboard Shortcuts"
 msgstr "Tangentbordsgenvägar"
 
-#: src/debian_policy_checker/main.py:98
+#: src/debian_policy_checker/main.py:99
 msgid "About Debian Policy Checker"
 msgstr "Om Debian Policy Checker"
 
-#: src/debian_policy_checker/main.py:117
+#: src/debian_policy_checker/main.py:118
 msgid "No package checked"
 msgstr "Inget paket kontrollerat"
 
-#: src/debian_policy_checker/main.py:118
+#: src/debian_policy_checker/main.py:119
 msgid "Open a .deb file or package directory to check policy compliance."
 msgstr ""
 "Öppna en .deb-fil eller paketkatalog för att kontrollera efterlevnaden av "
 "policyer."
 
-#: src/debian_policy_checker/main.py:128
+#: src/debian_policy_checker/main.py:129
 msgid "Ready"
 msgstr "Redo"
 
-#: src/debian_policy_checker/main.py:143
+#: src/debian_policy_checker/main.py:144
 msgid "Welcome"
 msgstr "Välkommen"
 
-#: src/debian_policy_checker/main.py:149
+#: src/debian_policy_checker/main.py:150
 msgid "Welcome to Debian Policy Checker"
 msgstr "Välkommen till Debian Policy Checker"
 
-#: src/debian_policy_checker/main.py:150
+#: src/debian_policy_checker/main.py:151
 msgid ""
 "Check Debian Policy compliance.\n"
 "\n"
@@ -90,73 +90,78 @@ msgstr ""
 "✓ Referenser till policysavsnitt\n"
 "✓ Exportera valideringsrapporter"
 
-#: src/debian_policy_checker/main.py:157
+#: src/debian_policy_checker/main.py:158
 msgid "Get Started"
 msgstr "Kom igång"
 
-#: src/debian_policy_checker/main.py:181
+#: src/debian_policy_checker/main.py:172 src/debian_policy_checker/main.py:277
+#: src/debian_policy_checker/main.py:312 src/debian_policy_checker/main.py:332
+msgid "Thanks to"
+msgstr ""
+
+#: src/debian_policy_checker/main.py:188
 msgid "Open package"
 msgstr "Öppna paket"
 
-#: src/debian_policy_checker/main.py:188
+#: src/debian_policy_checker/main.py:195
 #, python-format
 msgid "Checking %s..."
 msgstr "Kontrollerar %s..."
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Error"
 msgstr "Fel"
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Warning"
 msgstr "Varning"
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Info"
 msgstr "Info"
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Note"
 msgstr "Observera"
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Pedantic"
 msgstr "Pedantisk"
 
-#: src/debian_policy_checker/main.py:226
+#: src/debian_policy_checker/main.py:233
 #, python-format
 msgid "%(total)d issues: %(errors)d errors, %(warnings)d warnings"
 msgstr "%(total)d problem: %(errors)d fel, %(warnings)d varningar"
 
-#: src/debian_policy_checker/main.py:261
+#: src/debian_policy_checker/main.py:268
 msgid "Lintian"
 msgstr "Lintian"
 
-#: src/debian_policy_checker/main.py:262
+#: src/debian_policy_checker/main.py:269
 msgid "Show pedantic warnings"
 msgstr "Visa pedantiska varningar"
 
-#: src/debian_policy_checker/main.py:265
+#: src/debian_policy_checker/main.py:272
 msgid "Show experimental tags"
 msgstr "Visa experimentella taggar"
 
-#: src/debian_policy_checker/main.py:285
+#: src/debian_policy_checker/main.py:298
 msgid "Debug info copied"
 msgstr "Felsökningsinformation kopierades"
 
-#: src/debian_policy_checker/main.py:291
+#: src/debian_policy_checker/main.py:304
 msgid "General"
 msgstr "Allmänt"
 
-#: src/debian_policy_checker/main.py:293
+#: src/debian_policy_checker/main.py:306
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/debian_policy_checker/main.py:294
+#: src/debian_policy_checker/main.py:307
 msgid "Keyboard shortcuts"
 msgstr "Tangentbordsgenvägar"
 
-#: src/debian_policy_checker/main.py:311
+#: src/debian_policy_checker/main.py:330
 msgid ""
 "Validate packages against the Debian Policy Manual with clear error reports "
 "and fix suggestions."

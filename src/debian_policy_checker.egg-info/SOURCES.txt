@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/debian_policy_checker/__init__.py
+src/debian_policy_checker/__main__.py
+src/debian_policy_checker/accessibility.py
+src/debian_policy_checker/main.py
+src/debian_policy_checker.egg-info/PKG-INFO
+src/debian_policy_checker.egg-info/SOURCES.txt
+src/debian_policy_checker.egg-info/dependency_links.txt
+src/debian_policy_checker.egg-info/entry_points.txt
+src/debian_policy_checker.egg-info/requires.txt
+src/debian_policy_checker.egg-info/top_level.txt

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-policy-checker 0.1.0\n"
+"Project-Id-Version: debian-policy-checker\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 07:09+0100\n"
+"POT-Creation-Date: 2026-02-23 11:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,56 +17,56 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/debian_policy_checker/main.py:67
+#: src/debian_policy_checker/main.py:68
 msgid "Install with: sudo apt install lintian"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:76 src/debian_policy_checker/main.py:84
-#: src/debian_policy_checker/main.py:304
+#: src/debian_policy_checker/main.py:77 src/debian_policy_checker/main.py:85
+#: src/debian_policy_checker/main.py:323
 msgid "Debian Policy Checker"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:89
+#: src/debian_policy_checker/main.py:90
 msgid "Open .deb or package directory"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:95 src/debian_policy_checker/main.py:258
+#: src/debian_policy_checker/main.py:96 src/debian_policy_checker/main.py:265
 msgid "Settings"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:96
+#: src/debian_policy_checker/main.py:97
 msgid "Copy Debug Info"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:97
+#: src/debian_policy_checker/main.py:98
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:98
+#: src/debian_policy_checker/main.py:99
 msgid "About Debian Policy Checker"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:117
+#: src/debian_policy_checker/main.py:118
 msgid "No package checked"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:118
+#: src/debian_policy_checker/main.py:119
 msgid "Open a .deb file or package directory to check policy compliance."
 msgstr ""
 
-#: src/debian_policy_checker/main.py:128
+#: src/debian_policy_checker/main.py:129
 msgid "Ready"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:143
+#: src/debian_policy_checker/main.py:144
 msgid "Welcome"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:149
+#: src/debian_policy_checker/main.py:150
 msgid "Welcome to Debian Policy Checker"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:150
+#: src/debian_policy_checker/main.py:151
 msgid ""
 "Check Debian Policy compliance.\n"
 "\n"
@@ -77,73 +77,78 @@ msgid ""
 "✓ Export validation reports"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:157
+#: src/debian_policy_checker/main.py:158
 msgid "Get Started"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:181
-msgid "Open package"
+#: src/debian_policy_checker/main.py:172 src/debian_policy_checker/main.py:277
+#: src/debian_policy_checker/main.py:312 src/debian_policy_checker/main.py:332
+msgid "Thanks to"
 msgstr ""
 
 #: src/debian_policy_checker/main.py:188
+msgid "Open package"
+msgstr ""
+
+#: src/debian_policy_checker/main.py:195
 #, python-format
 msgid "Checking %s..."
 msgstr ""
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Error"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Warning"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Info"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Note"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:207
+#: src/debian_policy_checker/main.py:214
 msgid "Pedantic"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:226
+#: src/debian_policy_checker/main.py:233
 #, python-format
 msgid "%(total)d issues: %(errors)d errors, %(warnings)d warnings"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:261
+#: src/debian_policy_checker/main.py:268
 msgid "Lintian"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:262
+#: src/debian_policy_checker/main.py:269
 msgid "Show pedantic warnings"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:265
+#: src/debian_policy_checker/main.py:272
 msgid "Show experimental tags"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:285
+#: src/debian_policy_checker/main.py:298
 msgid "Debug info copied"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:291
+#: src/debian_policy_checker/main.py:304
 msgid "General"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:293
+#: src/debian_policy_checker/main.py:306
 msgid "Quit"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:294
+#: src/debian_policy_checker/main.py:307
 msgid "Keyboard shortcuts"
 msgstr ""
 
-#: src/debian_policy_checker/main.py:311
+#: src/debian_policy_checker/main.py:330
 msgid ""
 "Validate packages against the Debian Policy Manual with clear error reports "
 "and fix suggestions."

@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: debian-policy-checker
+Version: 0.1.3
+Summary: GTK4 Debian Policy Manual validator with fix suggestions
+Author-email: Daniel Nylander <daniel@danielnylander.se>
+License-Expression: GPL-3.0-or-later
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: PyGObject>=3.42
+Dynamic: license-file
