@@ -19,7 +19,6 @@ from debian_policy_checker.accessibility import AccessibilityManager
 LOCALE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "po")
 if not os.path.isdir(LOCALE_DIR):
     LOCALE_DIR = "/usr/share/locale"
-locale.bindtextdomain("debian-policy-checker", LOCALE_DIR)
 gettext.bindtextdomain("debian-policy-checker", LOCALE_DIR)
 gettext.textdomain("debian-policy-checker")
 _ = gettext.gettext
